@@ -1,309 +1,84 @@
 {
-	"createdDate": "2022-10-16T14:17:12.626977794Z",
-	"endDate": "2022-10-16T18:16:39.477451Z",
+	"createdDate": "2022-10-16T14:19:35.276562638Z",
+	"endDate": "2022-10-16T18:19:03.44349897Z",
 	"id": "report",
-	"regions": [
-		{
-			"rating": 564.72250065,
-			"region": "eastus"
-		},
-		{
-			"rating": 564.72250065,
-			"region": "eastus2"
-		},
-		{
-			"rating": 520.2704483900001,
-			"region": "southcentralus"
-		},
-		{
-			"rating": 552.02191429,
-			"region": "westus2"
-		},
-		{
-			"rating": 490.33335197,
-			"region": "westus3"
-		},
-		{
-			"rating": 795.14742461,
-			"region": "australiaeast"
-		},
-		{
-			"rating": 0,
-			"region": "southeastasia"
-		},
-		{
-			"rating": 578.7838641200001,
-			"region": "northeurope"
-		},
-		{
-			"rating": 0,
-			"region": "swedencentral"
-		},
-		{
-			"rating": 425.92323543,
-			"region": "uksouth"
-		},
-		{
-			"rating": 0,
-			"region": "westeurope"
-		},
-		{
-			"rating": 675.3990389300001,
-			"region": "centralus"
-		},
-		{
-			"rating": 0,
-			"region": "southafricanorth"
-		},
-		{
-			"rating": 0,
-			"region": "centralindia"
-		},
-		{
-			"rating": 0,
-			"region": "eastasia"
-		},
-		{
-			"rating": 0,
-			"region": "japaneast"
-		},
-		{
-			"rating": 0,
-			"region": "koreacentral"
-		},
-		{
-			"rating": 502.58034596,
-			"region": "canadacentral"
-		},
-		{
-			"rating": 0,
-			"region": "francecentral"
-		},
-		{
-			"rating": 0,
-			"region": "germanywestcentral"
-		},
-		{
-			"rating": 0,
-			"region": "norwayeast"
-		},
-		{
-			"rating": 0,
-			"region": "brazilsouth"
-		},
-		{
-			"rating": 564.72250065,
-			"region": "eastus2euap"
-		},
-		{
-			"rating": 0,
-			"region": "centralusstage"
-		},
-		{
-			"rating": 0,
-			"region": "eastusstage"
-		},
-		{
-			"rating": 0,
-			"region": "eastus2stage"
-		},
-		{
-			"rating": 0,
-			"region": "northcentralusstage"
-		},
-		{
-			"rating": 0,
-			"region": "southcentralusstage"
-		},
-		{
-			"rating": 0,
-			"region": "westusstage"
-		},
-		{
-			"rating": 0,
-			"region": "westus2stage"
-		},
-		{
-			"rating": 0,
-			"region": "asia"
-		},
-		{
-			"rating": 0,
-			"region": "asiapacific"
-		},
-		{
-			"rating": 0,
-			"region": "australia"
-		},
-		{
-			"rating": 0,
-			"region": "brazil"
-		},
-		{
-			"rating": 0,
-			"region": "canada"
-		},
-		{
-			"rating": 0,
-			"region": "europe"
-		},
-		{
-			"rating": 0,
-			"region": "france"
-		},
-		{
-			"rating": 0,
-			"region": "germany"
-		},
-		{
-			"rating": 0,
-			"region": "global"
-		},
-		{
-			"rating": 0,
-			"region": "india"
-		},
-		{
-			"rating": 0,
-			"region": "japan"
-		},
-		{
-			"rating": 0,
-			"region": "korea"
-		},
-		{
-			"rating": 0,
-			"region": "norway"
-		},
-		{
-			"rating": 0,
-			"region": "southafrica"
-		},
-		{
-			"rating": 0,
-			"region": "switzerland"
-		},
-		{
-			"rating": 0,
-			"region": "uae"
-		},
-		{
-			"rating": 0,
-			"region": "uk"
-		},
-		{
-			"rating": 0,
-			"region": "unitedstates"
-		},
-		{
-			"rating": 0,
-			"region": "unitedstateseuap"
-		},
-		{
-			"rating": 0,
-			"region": "eastasiastage"
-		},
-		{
-			"rating": 0,
-			"region": "southeastasiastage"
-		},
-		{
-			"rating": 564.72250065,
-			"region": "northcentralus"
-		},
-		{
-			"rating": 463.57140214000003,
-			"region": "westus"
-		},
-		{
-			"rating": 0,
-			"region": "jioindiawest"
-		},
-		{
-			"rating": 0,
-			"region": "switzerlandnorth"
-		},
-		{
-			"rating": 0,
-			"region": "uaenorth"
-		},
-		{
-			"rating": 675.3990389300001,
-			"region": "centraluseuap"
-		},
-		{
-			"rating": 572.88716331,
-			"region": "westcentralus"
-		},
-		{
-			"rating": 0,
-			"region": "southafricawest"
-		},
-		{
-			"rating": 795.14742461,
-			"region": "australiacentral"
-		},
-		{
-			"rating": 795.14742461,
-			"region": "australiacentral2"
-		},
-		{
-			"rating": 761.5815892300001,
-			"region": "australiasoutheast"
-		},
-		{
-			"rating": 0,
-			"region": "japanwest"
-		},
-		{
-			"rating": 0,
-			"region": "jioindiacentral"
-		},
-		{
-			"rating": 0,
-			"region": "koreasouth"
-		},
-		{
-			"rating": 0,
-			"region": "southindia"
-		},
-		{
-			"rating": 0,
-			"region": "westindia"
-		},
-		{
-			"rating": 484.43665116,
-			"region": "canadaeast"
-		},
-		{
-			"rating": 0,
-			"region": "francesouth"
-		},
-		{
-			"rating": 0,
-			"region": "germanynorth"
-		},
-		{
-			"rating": 0,
-			"region": "norwaywest"
-		},
-		{
-			"rating": 0,
-			"region": "switzerlandwest"
-		},
-		{
-			"rating": 425.92323543,
-			"region": "ukwest"
-		},
-		{
-			"rating": 0,
-			"region": "uaecentral"
-		},
-		{
-			"rating": 0,
-			"region": "brazilsoutheast"
-		}
-	],
-	"startDate": "2022-10-16T14:16:39.477446834Z",
+	"intensities": {
+		"asia": 0,
+		"asiapacific": 0,
+		"australia": 0,
+		"australiacentral": 795.14742461,
+		"australiacentral2": 795.14742461,
+		"australiaeast": 795.14742461,
+		"australiasoutheast": 761.5815892300001,
+		"brazil": 0,
+		"brazilsouth": 0,
+		"brazilsoutheast": 0,
+		"canada": 0,
+		"canadacentral": 502.58034596,
+		"canadaeast": 484.43665116,
+		"centralindia": 0,
+		"centralus": 675.3990389300001,
+		"centraluseuap": 675.3990389300001,
+		"centralusstage": 0,
+		"eastasia": 0,
+		"eastasiastage": 0,
+		"eastus": 564.72250065,
+		"eastus2": 564.72250065,
+		"eastus2euap": 564.72250065,
+		"eastus2stage": 0,
+		"eastusstage": 0,
+		"europe": 0,
+		"france": 0,
+		"francecentral": 0,
+		"francesouth": 0,
+		"germany": 0,
+		"germanynorth": 0,
+		"germanywestcentral": 0,
+		"global": 0,
+		"india": 0,
+		"japan": 0,
+		"japaneast": 0,
+		"japanwest": 0,
+		"jioindiacentral": 0,
+		"jioindiawest": 0,
+		"korea": 0,
+		"koreacentral": 0,
+		"koreasouth": 0,
+		"northcentralus": 564.72250065,
+		"northcentralusstage": 0,
+		"northeurope": 578.7838641200001,
+		"norway": 0,
+		"norwayeast": 0,
+		"norwaywest": 0,
+		"southafrica": 0,
+		"southafricanorth": 0,
+		"southafricawest": 0,
+		"southcentralus": 520.2704483900001,
+		"southcentralusstage": 0,
+		"southeastasia": 0,
+		"southeastasiastage": 0,
+		"southindia": 0,
+		"swedencentral": 0,
+		"switzerland": 0,
+		"switzerlandnorth": 0,
+		"switzerlandwest": 0,
+		"uae": 0,
+		"uaecentral": 0,
+		"uaenorth": 0,
+		"uk": 0,
+		"uksouth": 425.92323543,
+		"ukwest": 425.92323543,
+		"unitedstates": 0,
+		"unitedstateseuap": 0,
+		"westcentralus": 572.88716331,
+		"westeurope": 0,
+		"westindia": 0,
+		"westus": 463.57140214000003,
+		"westus2": 552.02191429,
+		"westus2stage": 0,
+		"westus3": 490.33335197,
+		"westusstage": 0
+	},
+	"startDate": "2022-10-16T14:19:03.44349547Z",
 	"userId": ""
 }
