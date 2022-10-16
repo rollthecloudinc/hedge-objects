@@ -1,84 +1,309 @@
 {
-	"createdDate": "2022-10-16T13:40:04.093720971Z",
-	"endDate": "2022-10-16T17:39:27.856478343Z",
+	"createdDate": "2022-10-16T14:15:12.149841252Z",
+	"endDate": "2022-10-16T18:14:38.252731708Z",
 	"id": "report",
-	"intensities": {
-		"asia": 0,
-		"asiapacific": 0,
-		"australia": 0,
-		"australiacentral": 798.3225712,
-		"australiacentral2": 798.3225712,
-		"australiaeast": 798.3225712,
-		"australiasoutheast": 770.65343663,
-		"brazil": 0,
-		"brazilsouth": 0,
-		"brazilsoutheast": 0,
-		"canada": 0,
-		"canadacentral": 502.58034596,
-		"canadaeast": 484.43665116,
-		"centralindia": 0,
-		"centralus": 684.9244787,
-		"centraluseuap": 684.9244787,
-		"centralusstage": 0,
-		"eastasia": 0,
-		"eastasiastage": 0,
-		"eastus": 566.53687013,
-		"eastus2": 566.53687013,
-		"eastus2euap": 566.53687013,
-		"eastus2stage": 0,
-		"eastusstage": 0,
-		"europe": 0,
-		"france": 0,
-		"francecentral": 0,
-		"francesouth": 0,
-		"germany": 0,
-		"germanynorth": 0,
-		"germanywestcentral": 0,
-		"global": 0,
-		"india": 0,
-		"japan": 0,
-		"japaneast": 0,
-		"japanwest": 0,
-		"jioindiacentral": 0,
-		"jioindiawest": 0,
-		"korea": 0,
-		"koreacentral": 0,
-		"koreasouth": 0,
-		"northcentralus": 566.53687013,
-		"northcentralusstage": 0,
-		"northeurope": 564.26890828,
-		"norway": 0,
-		"norwayeast": 0,
-		"norwaywest": 0,
-		"southafrica": 0,
-		"southafricanorth": 0,
-		"southafricawest": 0,
-		"southcentralus": 520.72404076,
-		"southcentralusstage": 0,
-		"southeastasia": 0,
-		"southeastasiastage": 0,
-		"southindia": 0,
-		"swedencentral": 0,
-		"switzerland": 0,
-		"switzerlandnorth": 0,
-		"switzerlandwest": 0,
-		"uae": 0,
-		"uaecentral": 0,
-		"uaenorth": 0,
-		"uk": 0,
-		"uksouth": 420.93371936,
-		"ukwest": 424.10886595,
-		"unitedstates": 0,
-		"unitedstateseuap": 0,
-		"westcentralus": 571.5263862,
-		"westeurope": 0,
-		"westindia": 0,
-		"westus": 462.66421740000004,
-		"westus2": 555.65065325,
-		"westus2stage": 0,
-		"westus3": 489.8797596,
-		"westusstage": 0
-	},
-	"startDate": "2022-10-16T13:39:27.856474801Z",
+	"regions": [
+		{
+			"rating": 564.72250065,
+			"region": "PJM_ROANOKE"
+		},
+		{
+			"rating": 564.72250065,
+			"region": "PJM_DC"
+		},
+		{
+			"rating": 522.08481787,
+			"region": "ERCOT_SANANTONIO"
+		},
+		{
+			"rating": 549.30036007,
+			"region": "GCPD"
+		},
+		{
+			"rating": 490.33335197,
+			"region": "AZPS"
+		},
+		{
+			"rating": 795.14742461,
+			"region": "NEM_NSW"
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 578.7838641200001,
+			"region": "IE"
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 425.92323543,
+			"region": "UK"
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 675.3990389300001,
+			"region": "MISO_MASON_CITY"
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 502.58034596,
+			"region": "IESO_NORTH"
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 564.72250065,
+			"region": "PJM_DC"
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 564.72250065,
+			"region": "PJM_CHICAGO"
+		},
+		{
+			"rating": 463.57140214000003,
+			"region": "CAISO_NORTH"
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 675.3990389300001,
+			"region": "MISO_MASON_CITY"
+		},
+		{
+			"rating": 572.88716331,
+			"region": "PACE"
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 795.14742461,
+			"region": "NEM_NSW"
+		},
+		{
+			"rating": 795.14742461,
+			"region": "NEM_NSW"
+		},
+		{
+			"rating": 761.5815892300001,
+			"region": "NEM_VIC"
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 484.43665116,
+			"region": "HQ"
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 425.92323543,
+			"region": "UK"
+		},
+		{
+			"rating": 0,
+			"region": ""
+		},
+		{
+			"rating": 0,
+			"region": ""
+		}
+	],
+	"startDate": "2022-10-16T14:14:38.252728292Z",
 	"userId": ""
 }
