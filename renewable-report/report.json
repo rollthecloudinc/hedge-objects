@@ -1,309 +1,309 @@
 {
-	"createdDate": "2022-10-16T14:15:12.149841252Z",
-	"endDate": "2022-10-16T18:14:38.252731708Z",
+	"createdDate": "2022-10-16T14:17:12.626977794Z",
+	"endDate": "2022-10-16T18:16:39.477451Z",
 	"id": "report",
 	"regions": [
 		{
 			"rating": 564.72250065,
-			"region": "PJM_ROANOKE"
+			"region": "eastus"
 		},
 		{
 			"rating": 564.72250065,
-			"region": "PJM_DC"
+			"region": "eastus2"
 		},
 		{
-			"rating": 522.08481787,
-			"region": "ERCOT_SANANTONIO"
+			"rating": 520.2704483900001,
+			"region": "southcentralus"
 		},
 		{
-			"rating": 549.30036007,
-			"region": "GCPD"
+			"rating": 552.02191429,
+			"region": "westus2"
 		},
 		{
 			"rating": 490.33335197,
-			"region": "AZPS"
+			"region": "westus3"
 		},
 		{
 			"rating": 795.14742461,
-			"region": "NEM_NSW"
+			"region": "australiaeast"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "southeastasia"
 		},
 		{
 			"rating": 578.7838641200001,
-			"region": "IE"
+			"region": "northeurope"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "swedencentral"
 		},
 		{
 			"rating": 425.92323543,
-			"region": "UK"
+			"region": "uksouth"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "westeurope"
 		},
 		{
 			"rating": 675.3990389300001,
-			"region": "MISO_MASON_CITY"
+			"region": "centralus"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "southafricanorth"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "centralindia"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "eastasia"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "japaneast"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "koreacentral"
 		},
 		{
 			"rating": 502.58034596,
-			"region": "IESO_NORTH"
+			"region": "canadacentral"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "francecentral"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "germanywestcentral"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "norwayeast"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "brazilsouth"
 		},
 		{
 			"rating": 564.72250065,
-			"region": "PJM_DC"
+			"region": "eastus2euap"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "centralusstage"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "eastusstage"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "eastus2stage"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "northcentralusstage"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "southcentralusstage"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "westusstage"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "westus2stage"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "asia"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "asiapacific"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "australia"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "brazil"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "canada"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "europe"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "france"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "germany"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "global"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "india"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "japan"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "korea"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "norway"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "southafrica"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "switzerland"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "uae"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "uk"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "unitedstates"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "unitedstateseuap"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "eastasiastage"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "southeastasiastage"
 		},
 		{
 			"rating": 564.72250065,
-			"region": "PJM_CHICAGO"
+			"region": "northcentralus"
 		},
 		{
 			"rating": 463.57140214000003,
-			"region": "CAISO_NORTH"
+			"region": "westus"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "jioindiawest"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "switzerlandnorth"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "uaenorth"
 		},
 		{
 			"rating": 675.3990389300001,
-			"region": "MISO_MASON_CITY"
+			"region": "centraluseuap"
 		},
 		{
 			"rating": 572.88716331,
-			"region": "PACE"
+			"region": "westcentralus"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "southafricawest"
 		},
 		{
 			"rating": 795.14742461,
-			"region": "NEM_NSW"
+			"region": "australiacentral"
 		},
 		{
 			"rating": 795.14742461,
-			"region": "NEM_NSW"
+			"region": "australiacentral2"
 		},
 		{
 			"rating": 761.5815892300001,
-			"region": "NEM_VIC"
+			"region": "australiasoutheast"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "japanwest"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "jioindiacentral"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "koreasouth"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "southindia"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "westindia"
 		},
 		{
 			"rating": 484.43665116,
-			"region": "HQ"
+			"region": "canadaeast"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "francesouth"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "germanynorth"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "norwaywest"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "switzerlandwest"
 		},
 		{
 			"rating": 425.92323543,
-			"region": "UK"
+			"region": "ukwest"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "uaecentral"
 		},
 		{
 			"rating": 0,
-			"region": ""
+			"region": "brazilsoutheast"
 		}
 	],
-	"startDate": "2022-10-16T14:14:38.252728292Z",
+	"startDate": "2022-10-16T14:16:39.477446834Z",
 	"userId": ""
 }
