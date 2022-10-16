@@ -1,5 +1,7 @@
 {
-	"Intensities": {
+	"UserId": "",
+	"id": "report",
+	"intensities": {
 		"asia": 0,
 		"asiapacific": 0,
 		"australia": 0,
@@ -75,7 +77,5 @@
 		"westus2stage": 0,
 		"westus3": 505.30190018,
 		"westusstage": 0
-	},
-	"UserId": "",
-	"id": "report"
+	}
 }
