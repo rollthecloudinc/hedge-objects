@@ -3,7 +3,7 @@
 	"id": "emissionless-stream",
 	"regions": [
 		{
-			"origin": "oqgoocehud.execute-api.us-east-1.amazonaws.com/dev",
+			"origin": "oqgoocehud.execute-api.us-east-1.amazonaws.com",
 			"region": "eastus"
 		}
 	],
