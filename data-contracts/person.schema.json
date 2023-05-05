@@ -1,5 +1,6 @@
 {
-	"contract": {
+	"id": "person.schema",
+	"schema": {
 		"$id": "https://example.com/person.schema.json",
 		"$schema": "https://json-schema.org/draft/2020-12/schema",
 		"properties": {
@@ -20,6 +21,5 @@
 		"title": "Person",
 		"type": "object"
 	},
-	"id": "person.schema",
 	"userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453"
 }
