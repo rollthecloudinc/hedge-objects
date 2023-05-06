@@ -1,8 +1,6 @@
 {
 	"id": "person",
 	"schema": {
-		"$id": "https://example.com/person.schema.json",
-		"$schema": "https://json-schema.org/draft/2020-12/schema",
 		"properties": {
 			"age": {
 				"description": "Age in years which must be equal to or greater than zero.",
@@ -17,9 +15,7 @@
 				"description": "The person's last name.",
 				"type": "string"
 			}
-		},
-		"title": "Person",
-		"type": "object"
+		}
 	},
 	"userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453"
 }
