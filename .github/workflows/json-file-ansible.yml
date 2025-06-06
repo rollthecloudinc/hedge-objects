@@ -56,3 +56,9 @@ jobs:
         working-directory: school # Change directory to the school repository
         run: |
           ansible-playbook playbooks/install_go.yml # Run the specified Ansible playbook
+
+      # Step 8: Run Ansible Playbooks from the "school" repository
+      - name: Run Ansible Playbook Install Bazel
+        working-directory: school # Change directory to the school repository
+        run: |
+          ansible-playbook playbooks/install_bazel.yml # Run the specified Ansible playbook
