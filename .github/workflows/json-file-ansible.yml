@@ -62,3 +62,8 @@ jobs:
         working-directory: school # Change directory to the school repository
         run: |
           ansible-playbook playbooks/install_bazel.yml # Run the specified Ansible playbook
+
+      # Step 9: Run Ansible Playbooks from the "school" repository
+      - name: Build a library
+        run: |
+          bazel build //func/grant_access --enable_bzlmod=false --enable_workspace=true
