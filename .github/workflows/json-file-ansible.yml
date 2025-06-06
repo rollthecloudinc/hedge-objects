@@ -46,38 +46,53 @@ jobs:
         with:
           python-version: "3.9" # Specify Python version (compatible for Ansible installation)
 
-      # Step 6: Install Ansible
+      # Step 6: Install Node.js and Serverless Framework
+      - name: Set up Node.js and Installpackages including Serverless Framework
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # Use Node.js version compatible with Serverless Framework
+      - name: Install Node & Packages Serverless Framework
+        run: |
+          npm install -g serverless
+
+      # Step 7: Install Ansible
       - name: Install Ansible
         run: |
           python -m pip install --upgrade pip # Upgrade pip
           pip install ansible # Install Ansible
           ansible --version # Verify Ansible installation
 
-      # Step 7: Run Ansible Playbooks from the "school" repository
+      # Step 8: Run Ansible Playbooks from the "school" repository
       - name: Run Ansible Playbook Install Java
         working-directory: school # Change directory to the school repository
         run: |
           ansible-playbook playbooks/install_java.yml # Run the specified Ansible playbook
 
-      # Step 8: Run Ansible Playbooks from the "school" repository
+      # Step 9: Run Ansible Playbooks from the "school" repository
       - name: Run Ansible Playbook Install Go
         working-directory: school # Change directory to the school repository
         run: |
           ansible-playbook playbooks/install_go.yml # Run the specified Ansible playbook
 
-      # Step 9: Run Ansible Playbooks from the "school" repository
+      # Step 10: Run Ansible Playbooks from the "school" repository
       - name: Run Ansible Playbook Install Bazel
         working-directory: school # Change directory to the school repository
         run: |
           ansible-playbook playbooks/install_bazel.yml # Run the specified Ansible playbook
 
-      # Step 10: Run Ansible Playbooks from the "school" repository
+      # Step 11: Run Ansible Playbooks from the "school" repository
       - name: Run Ansible Playbook Install Opensearch
         working-directory: school # Change directory to the school repository
         run: |
           ansible-playbook playbooks/install_opensearch.yml # Run the specified Ansible playbook
 
-      # Step 11: Run Ansible Playbooks from the "school" repository
+      # Step 12: Install HEDGE NPM Packages
+      - name: Install HEDGE NPM Packages
+        working-directory: hedge # Change directory to the school repository
+        run: |
+          npm install
+
+      # Step 13: Run Ansible Playbooks from the "school" repository
       - name: Build HEDGE func/grant_access
         working-directory: hedge # Change directory to the school repository
         run: |
