@@ -98,7 +98,7 @@ jobs:
         run: |
           bazel build //func/grant_access --enable_bzlmod=false --enable_workspace=true
 
-      # Step 13: Run Ansible Playbooks from the "school" repository
+      # Step 14: Run Ansible Playbooks from the "school" repository
       - name: Run the function
         working-directory: hedge # Change directory to the school repository
         run: |
