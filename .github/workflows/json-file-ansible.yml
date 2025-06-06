@@ -98,8 +98,57 @@ jobs:
         run: |
           bazel build //func/grant_access --enable_bzlmod=false --enable_workspace=true
 
+      # Step 3: Start OpenSearch in the Background
+      - name: Start OpenSearch
+        run: |
+          echo "Starting OpenSearch in the background..."
+          nohup /opt/opensearch-2.19.0/bin/opensearch > opensearch_logs/output.log 2>&1 &
+          echo "OpenSearch started in the background."
+
+      # Step 4: Wait for OpenSearch to Successfully Start
+      - name: Wait for OpenSearch to Start
+        run: |
+          echo "Waiting for OpenSearch to start..."
+          retries=30
+          delay=10
+
+          for i in $(seq 1 $retries); do
+            if curl -s http://localhost:9200/_cluster/health | grep -q '"status":"green"'; then
+              echo "OpenSearch is up and running!"
+              break
+            elif [ "$i" -eq "$retries" ]; then
+              echo "OpenSearch failed to start after $retries retries."
+              exit 1
+            else
+              echo "OpenSearch not ready yet. Retrying in $delay seconds..."
+              sleep $delay
+            fi
+          done
+
       # Step 14: Run Ansible Playbooks from the "school" repository
       - name: Run the function
         working-directory: hedge # Change directory to the school repository
         run: |
           serverless invoke local --function GrantAccess
+
+      # Step 2: Process OpenSearch logs and data
+      - name: Commit OpenSearch Data Files and Logs
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@example.com"
+
+          # Ensure there are new files in logs and data directories
+          if [[ "$(ls /home/runner/work/opensearch_logs)" ]]; then
+            echo "Saving OpenSearch logs..."
+            cp -r /home/runner/work/opensearch_logs/* logs_backup/
+          fi
+
+          if [[ "$(ls /home/runner/work/opensearch_data)" ]]; then
+            echo "Saving OpenSearch data files..."
+            cp -r /home/runner/work/opensearch_data/* data_backup/
+          fi
+
+          # Commit both logs and data files
+          git add logs_backup/ data_backup/
+          git commit -m "Add OpenSearch logs and data files generated during runtime"
+          git push origin HEAD
