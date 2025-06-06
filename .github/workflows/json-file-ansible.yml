@@ -97,3 +97,9 @@ jobs:
         working-directory: hedge # Change directory to the school repository
         run: |
           bazel build //func/grant_access --enable_bzlmod=false --enable_workspace=true
+
+      # Step 13: Run Ansible Playbooks from the "school" repository
+      - name: Run the function
+        working-directory: hedge # Change directory to the school repository
+        run: |
+          serverless invoke local --function GrantAccess
