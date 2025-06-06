@@ -50,3 +50,9 @@ jobs:
         working-directory: school # Change directory to the school repository
         run: |
           ansible-playbook playbooks/install_java.yml # Run the specified Ansible playbook
+
+      # Step 7: Run Ansible Playbooks from the "school" repository
+      - name: Run Ansible Playbook Install Go
+        working-directory: school # Change directory to the school repository
+        run: |
+          ansible-playbook playbooks/install_go.yml # Run the specified Ansible playbook
