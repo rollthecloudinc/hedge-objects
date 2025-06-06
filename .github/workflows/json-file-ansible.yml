@@ -72,6 +72,12 @@ jobs:
           ansible-playbook playbooks/install_bazel.yml # Run the specified Ansible playbook
 
       # Step 10: Run Ansible Playbooks from the "school" repository
+      - name: Run Ansible Playbook Install Opensearch
+        working-directory: school # Change directory to the school repository
+        run: |
+          ansible-playbook playbooks/install_opensearch.yml # Run the specified Ansible playbook
+
+      # Step 11: Run Ansible Playbooks from the "school" repository
       - name: Build HEDGE func/grant_access
         working-directory: hedge # Change directory to the school repository
         run: |
