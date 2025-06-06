@@ -32,38 +32,47 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }} # Use GitHub token for authentication
           path: school # Check out the repository into a subfolder named "school"
 
-      # Step 4: Set up Python (required to install Ansible)
+      # Step 4: Checkout the "rollthecloudinc/school" repository
+      - name: Checkout rollthecloudinc/hedge repository
+        uses: actions/checkout@v3
+        with:
+          repository: rollthecloudinc/hedge # Specify the repository to checkout
+          token: ${{ secrets.GITHUB_TOKEN }} # Use GitHub token for authentication
+          path: hedge # Check out the repository into a subfolder named "school"
+
+      # Step 5: Set up Python (required to install Ansible)
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.9" # Specify Python version (compatible for Ansible installation)
 
-      # Step 5: Install Ansible
+      # Step 6: Install Ansible
       - name: Install Ansible
         run: |
           python -m pip install --upgrade pip # Upgrade pip
           pip install ansible # Install Ansible
           ansible --version # Verify Ansible installation
 
-      # Step 6: Run Ansible Playbooks from the "school" repository
+      # Step 7: Run Ansible Playbooks from the "school" repository
       - name: Run Ansible Playbook Install Java
         working-directory: school # Change directory to the school repository
         run: |
           ansible-playbook playbooks/install_java.yml # Run the specified Ansible playbook
 
-      # Step 7: Run Ansible Playbooks from the "school" repository
+      # Step 8: Run Ansible Playbooks from the "school" repository
       - name: Run Ansible Playbook Install Go
         working-directory: school # Change directory to the school repository
         run: |
           ansible-playbook playbooks/install_go.yml # Run the specified Ansible playbook
 
-      # Step 8: Run Ansible Playbooks from the "school" repository
+      # Step 9: Run Ansible Playbooks from the "school" repository
       - name: Run Ansible Playbook Install Bazel
         working-directory: school # Change directory to the school repository
         run: |
           ansible-playbook playbooks/install_bazel.yml # Run the specified Ansible playbook
 
-      # Step 9: Run Ansible Playbooks from the "school" repository
-      - name: Build a library
+      # Step 10: Run Ansible Playbooks from the "school" repository
+      - name: Build HEDGE func/grant_access
+        working-directory: hedge # Change directory to the school repository
         run: |
           bazel build //func/grant_access --enable_bzlmod=false --enable_workspace=true
