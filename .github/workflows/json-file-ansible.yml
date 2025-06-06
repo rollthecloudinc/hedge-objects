@@ -1,4 +1,4 @@
-name: Trigger on JSON File Changes and Install Ansible
+name: Trigger on JSON File Changes and Use Ansible to Install Software
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   jsonFileChanges:
-    runs-on: ubuntu-latest # Ensures the job runs on AMD64 architecture with an Ubuntu-based environment
+    runs-on: ubuntu-latest # Use an Ubuntu-based AMD architecture environment
 
     steps:
       # Step 1: Confirm Runner Architecture
@@ -20,25 +20,33 @@ jobs:
           echo "Runner Architecture: $(uname -m)"
         # Expected output for architecture is "x86_64" (AMD64)
 
-      # Step 2: Checkout repository to get the latest code
-      - name: Checkout repository
+      # Step 2: Checkout the main repository
+      - name: Checkout main repository
         uses: actions/checkout@v3
 
-      # Step 3: Set up Python (required to install Ansible)
+      # Step 3: Checkout the "rollthecloudinc/school" repository
+      - name: Checkout rollthecloudinc/school repository
+        uses: actions/checkout@v3
+        with:
+          repository: rollthecloudinc/school # Specify the repository to checkout
+          token: ${{ secrets.GITHUB_TOKEN }} # Use GitHub token for authentication
+          path: school # Check out the repository into a subfolder named "school"
+
+      # Step 4: Set up Python (required to install Ansible)
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.9" # Specify Python version (compatible for Ansible installation)
 
-      # Step 4: Install Ansible
+      # Step 5: Install Ansible
       - name: Install Ansible
         run: |
           python -m pip install --upgrade pip # Upgrade pip
           pip install ansible # Install Ansible
           ansible --version # Verify Ansible installation
 
-      # Step 5: Custom Tasks Related to JSON Files
-      - name: Handle JSON Changes
+      # Step 6: Run Ansible Playbooks from the "school" repository
+      - name: Run Ansible Playbook Install Java
+        working-directory: school # Change directory to the school repository
         run: |
-          echo "Changes detected in JSON files!"
-          echo "Running JSON-specific tasks..."
+          ansible-playbook playbooks/install_java.yml # Run the specified Ansible playbook
