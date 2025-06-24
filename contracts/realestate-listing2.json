@@ -1,0 +1,197 @@
+{
+	"id": "realestate-listing2",
+	"schema": {
+		"$schema": "http://json-schema.org/draft-07/schema#",
+		"properties": {
+			"listing": {
+				"properties": {
+					"address": {
+						"properties": {
+							"city": {
+								"type": "string"
+							},
+							"country": {
+								"type": "string"
+							},
+							"postalCode": {
+								"type": "string"
+							},
+							"state": {
+								"type": "string"
+							},
+							"street": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"street",
+							"city",
+							"state",
+							"postalCode",
+							"country"
+						],
+						"type": "object"
+					},
+					"agent": {
+						"properties": {
+							"agency": {
+								"type": "string"
+							},
+							"email": {
+								"format": "email",
+								"type": "string"
+							},
+							"name": {
+								"type": "string"
+							},
+							"phone": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"name",
+							"email",
+							"phone"
+						],
+						"type": "object"
+					},
+					"currency": {
+						"type": "string"
+					},
+					"description": {
+						"type": "string"
+					},
+					"features": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					},
+					"id": {
+						"type": "string"
+					},
+					"listingDetails": {
+						"properties": {
+							"MLSNumber": {
+								"type": "string"
+							},
+							"dateListed": {
+								"format": "date",
+								"type": "string"
+							},
+							"status": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"status",
+							"dateListed"
+						],
+						"type": "object"
+					},
+					"openHouse": {
+						"items": {
+							"properties": {
+								"date": {
+									"format": "date",
+									"type": "string"
+								},
+								"endTime": {
+									"pattern": "^(1[0-2]|0?[1-9]):([0-5][0-9]) ?(AM|PM)$",
+									"type": "string"
+								},
+								"startTime": {
+									"pattern": "^(1[0-2]|0?[1-9]):([0-5][0-9]) ?(AM|PM)$",
+									"type": "string"
+								}
+							},
+							"required": [
+								"date",
+								"startTime",
+								"endTime"
+							],
+							"type": "object"
+						},
+						"type": "array"
+					},
+					"photos": {
+						"items": {
+							"properties": {
+								"description": {
+									"type": "string"
+								},
+								"url": {
+									"format": "uri",
+									"type": "string"
+								}
+							},
+							"required": [
+								"url"
+							],
+							"type": "object"
+						},
+						"type": "array"
+					},
+					"price": {
+						"type": "number"
+					},
+					"propertyDetails": {
+						"properties": {
+							"bathrooms": {
+								"minimum": 0,
+								"type": "number"
+							},
+							"bedrooms": {
+								"minimum": 0,
+								"type": "integer"
+							},
+							"lotSize": {
+								"type": "string"
+							},
+							"squareFeet": {
+								"minimum": 0,
+								"type": "integer"
+							},
+							"type": {
+								"type": "string"
+							},
+							"yearBuilt": {
+								"maximum": 2100,
+								"minimum": 1800,
+								"type": "integer"
+							}
+						},
+						"required": [
+							"type",
+							"bedrooms",
+							"bathrooms",
+							"squareFeet"
+						],
+						"type": "object"
+					},
+					"title": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"id",
+					"title",
+					"description",
+					"price",
+					"currency",
+					"propertyDetails",
+					"address",
+					"photos",
+					"agent",
+					"listingDetails"
+				],
+				"type": "object"
+			}
+		},
+		"required": [
+			"listing"
+		],
+		"type": "object"
+	},
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
