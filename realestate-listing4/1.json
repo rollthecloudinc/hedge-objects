@@ -1,0 +1,70 @@
+{
+	"id": "1",
+	"listing": {
+		"address": {
+			"city": "Springfield",
+			"country": "USA",
+			"postalCode": "62704",
+			"state": "IL",
+			"street": "123 Main St"
+		},
+		"agent": {
+			"agency": "Dream Homes Realty",
+			"email": "jane.doe@example.com",
+			"name": "Jane Doe",
+			"phone": "+1-555-123-4567"
+		},
+		"currency": "USD",
+		"description": "A beautiful 3-bedroom, 2-bathroom family home located in a quiet neighborhood. Includes a large backyard, updated kitchen, and a 2-car garage.",
+		"features": [
+			"Hardwood floors",
+			"Energy-efficient appliances",
+			"Finished basement",
+			"Fireplace",
+			"Private backyard"
+		],
+		"id": "12345",
+		"listingDetails": {
+			"MLSNumber": "ABC123456",
+			"dateListed": "2023-10-01",
+			"status": "For Sale"
+		},
+		"openHouse": [
+			{
+				"date": "2023-10-15",
+				"endTime": "4:00 PM",
+				"startTime": "1:00 PM"
+			},
+			{
+				"date": "2023-10-22",
+				"endTime": "4:00 PM",
+				"startTime": "1:00 PM"
+			}
+		],
+		"photos": [
+			{
+				"description": "Front view of the property",
+				"url": "https://example.com/photos/12345-1.jpg"
+			},
+			{
+				"description": "Spacious kitchen with modern appliances",
+				"url": "https://example.com/photos/12345-2.jpg"
+			},
+			{
+				"description": "Master bedroom with en-suite bathroom",
+				"url": "https://example.com/photos/12345-3.jpg"
+			}
+		],
+		"price": 350000,
+		"propertyDetails": {
+			"bathrooms": 2,
+			"bedrooms": 3,
+			"lotSize": "0.25 acres",
+			"squareFeet": 2000,
+			"type": "Single Family Home",
+			"yearBuilt": 1995
+		},
+		"title": "Spacious 3-Bedroom Family Home with Garden"
+	},
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
