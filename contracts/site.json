@@ -2,16 +2,8 @@
 	"hooks": {
 		"AfterSave": [
 			{
-				"name": "gosite-hooks-%stage-SiteInit",
-				"type": "lambda"
-			},
-			{
-				"name": "gosite-hooks-%stage-SiteEnvironment",
-				"type": "lambda"
-			},
-			{
-				"name": "gosite-hooks-%stage-SiteWrite",
-				"type": "lambda"
+				"name": "arn:aws:states:us-east-1:032425924121:stateMachine:SiteWorkflow",
+				"type": "statemachine"
 			}
 		]
 	},
