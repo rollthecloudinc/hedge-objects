@@ -1,0 +1,28 @@
+{
+	"hooks": {
+		"AfterSave": [
+			{
+				"name": "gosite-%stage-SiteInit",
+				"type": "lambda"
+			},
+			{
+				"name": "gosite-%stage-SiteEnvironment",
+				"type": "lambda"
+			},
+			{
+				"name": "gosite-%stage-SiteWrite",
+				"type": "lambda"
+			}
+		]
+	},
+	"id": "site",
+	"schema": {
+		"properties": {
+			"repoName": {
+				"description": "The site respository name",
+				"type": "string"
+			}
+		}
+	},
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
