@@ -2,15 +2,15 @@
 	"hooks": {
 		"AfterSave": [
 			{
-				"name": "gosite-%stage-SiteInit",
+				"name": "gosite-hooks-%stage-SiteInit",
 				"type": "lambda"
 			},
 			{
-				"name": "gosite-%stage-SiteEnvironment",
+				"name": "gosite-hooks-%stage-SiteEnvironment",
 				"type": "lambda"
 			},
 			{
-				"name": "gosite-%stage-SiteWrite",
+				"name": "gosite-hooks-%stage-SiteWrite",
 				"type": "lambda"
 			}
 		]
