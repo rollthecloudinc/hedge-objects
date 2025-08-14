@@ -1,0 +1,20 @@
+{
+	"hooks": {
+		"AfterSave": [
+			{
+				"name": "arn:aws:states:us-east-1:032425924121:stateMachine:SiteWorkflow",
+				"type": "statemachine"
+			}
+		]
+	},
+	"id": "site",
+	"schema": {
+		"properties": {
+			"repoName": {
+				"description": "The site respository name",
+				"type": "string"
+			}
+		}
+	},
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
