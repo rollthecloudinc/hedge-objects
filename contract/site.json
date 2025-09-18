@@ -2,7 +2,7 @@
 	"hooks": {
 		"AfterSave": [
 			{
-				"name": "arn:aws:states:us-east-1:032425924121:lambda:SiteWorkflow",
+				"name": "arn:aws:lambda:us-east-1:032425924121:function:goclassifieds-splits-api-dev-IndexCreateHook",
 				"type": "lambda"
 			}
 		]
