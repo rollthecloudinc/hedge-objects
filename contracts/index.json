@@ -9,7 +9,6 @@
 	},
 	"id": "index",
 	"schema": {
-		"additionalProperties": false,
 		"properties": {
 			"entity": {
 				"type": "string"
