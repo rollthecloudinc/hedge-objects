@@ -2,17 +2,22 @@
 	"hooks": {
 		"AfterSave": [
 			{
-				"name": "arn:aws:states:us-east-1:032425924121:stateMachine:SiteWorkflow",
-				"type": "statemachine"
+				"name": "arn:aws:states:us-east-1:032425924121:lambda:SiteWorkflow",
+				"type": "lambda"
 			}
 		]
 	},
 	"id": "site",
 	"schema": {
 		"properties": {
-			"repoName": {
-				"description": "The site respository name",
+			"entity": {
 				"type": "string"
+			},
+			"fields": {
+				"items": {
+					"type": "string"
+				},
+				"type": "array"
 			}
 		}
 	},
