@@ -1,0 +1,10 @@
+{
+	"entity": "message",
+	"fields": [
+		"senderId",
+		"recipientId"
+	],
+	"id": "a28f51ab-94b4-11f0-9437-fa88f56fa3a5",
+	"repoName": "conversations3",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
