@@ -2,22 +2,16 @@
 	"hooks": {
 		"AfterSave": [
 			{
-				"name": "arn:aws:lambda:us-east-1:032425924121:function:goclassifieds-splits-api-dev-IndexCreateHook",
-				"type": "lambda"
+				"name": "arn:aws:states:us-east-1:032425924121:stateMachine:SiteWorkflow",
+				"type": "statemachine"
 			}
 		]
 	},
 	"id": "site",
 	"schema": {
 		"properties": {
-			"entity": {
-				"type": "string"
-			},
-			"fields": {
-				"items": {
-					"type": "string"
-				},
-				"type": "array"
+			"repoName": {
+				"description": "The site respository name"
 			}
 		}
 	},
