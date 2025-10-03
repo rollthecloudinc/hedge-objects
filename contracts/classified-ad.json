@@ -1,0 +1,90 @@
+{
+	"hooks": {
+		"AfterSave": [
+			{
+				"name": "arn:aws:lambda:us-east-1:032425924121:function:goclassifieds-splits-api-dev-EntityIndexHook",
+				"type": "lambda"
+			}
+		]
+	},
+	"id": "classified-ad",
+	"schema": {
+		"properties": {
+			"category": {
+				"description": "Primary category of the item (e.g., Cars, Furniture, Electronics).",
+				"type": "string"
+			},
+			"datePosted": {
+				"description": "Date the ad was originally posted.",
+				"format": "date",
+				"type": "string"
+			},
+			"description": {
+				"description": "Detailed description of the item.",
+				"type": "string"
+			},
+			"id": {
+				"description": "Unique identifier for the classified ad.",
+				"type": "string"
+			},
+			"isPromoted": {
+				"description": "Boolean flag indicating if the ad is promoted.",
+				"type": "boolean"
+			},
+			"location": {
+				"description": "Hierarchical location string (e.g., usa:texas:dallas). Used for composite keys.",
+				"type": "string"
+			},
+			"price": {
+				"description": "Listing price of the item.",
+				"type": "number"
+			},
+			"rating": {
+				"description": "Average rating.",
+				"type": "number"
+			},
+			"seller": {
+				"description": "Nested object containing seller details.",
+				"properties": {
+					"isVerified": {
+						"type": "boolean"
+					},
+					"joinDate": {
+						"format": "date",
+						"type": "string"
+					}
+				},
+				"required": [
+					"joinDate",
+					"isVerified"
+				],
+				"type": "object"
+			},
+			"status": {
+				"description": "Current status of the ad (e.g., active, sold, pending).",
+				"type": "string"
+			},
+			"title": {
+				"description": "Title of the advertisement.",
+				"type": "string"
+			},
+			"views": {
+				"description": "Total number of views the ad has received.",
+				"type": "integer"
+			}
+		},
+		"required": [
+			"id",
+			"title",
+			"status",
+			"category",
+			"location",
+			"isPromoted",
+			"price",
+			"views",
+			"rating",
+			"seller"
+		]
+	},
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
