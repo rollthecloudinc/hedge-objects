@@ -1,0 +1,18 @@
+{
+	"category": "Vehicle",
+	"datePosted": "2025-09-25",
+	"description": "Clean title, 75k miles. Fuel-efficient commuting car.",
+	"id": "e87b9593-a0c1-11f0-b350-368d67ab54ba",
+	"isPromoted": false,
+	"location": "detroit",
+	"price": 9500,
+	"rating": 4.5,
+	"seller": {
+		"isVerified": true,
+		"joinDate": "2021-08-20"
+	},
+	"status": "pending",
+	"title": "2015 Chevy Malibu LT",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb",
+	"views": 3100
+}
