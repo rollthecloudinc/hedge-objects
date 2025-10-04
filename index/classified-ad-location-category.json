@@ -1,0 +1,10 @@
+{
+	"entity": "classified-ad",
+	"fields": [
+		"location",
+		"category"
+	],
+	"id": "classified-ad-location-category",
+	"repoName": "classified-ad-location-category-index2",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
