@@ -70,7 +70,6 @@
 			}
 		},
 		"required": [
-			"id",
 			"title",
 			"status",
 			"category",
