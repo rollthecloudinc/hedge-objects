@@ -16,7 +16,7 @@
 			},
 			"datePosted": {
 				"description": "Date the ad was originally posted.",
-				"type": "timestamp"
+				"type": "string"
 			},
 			"description": {
 				"description": "Detailed description of the item.",
@@ -45,7 +45,7 @@
 						"type": "boolean"
 					},
 					"joinDate": {
-						"type": "timestamp"
+						"type": "string"
 					}
 				},
 				"required": [
