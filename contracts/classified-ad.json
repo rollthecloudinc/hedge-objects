@@ -57,6 +57,27 @@
 				"description": "Average rating.",
 				"type": "number"
 			},
+			"reviews": {
+				"description": "Array of user reviews for the classified ad.",
+				"items": {
+					"properties": {
+						"feedback": {
+							"description": "The textual feedback provided in the review.",
+							"type": "string"
+						},
+						"reviewRating": {
+							"description": "The numerical rating given in the review.",
+							"type": "number"
+						}
+					},
+					"required": [
+						"reviewRating",
+						"feedback"
+					],
+					"type": "object"
+				},
+				"type": "array"
+			},
 			"seller": {
 				"description": "Nested object containing seller details.",
 				"properties": {
