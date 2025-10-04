@@ -34,7 +34,7 @@
 			},
 			"datePosted": {
 				"description": "Date the ad was originally posted.",
-				"format": "date",
+				"format": "date-time",
 				"type": "string"
 			},
 			"description": {
@@ -64,7 +64,7 @@
 						"type": "boolean"
 					},
 					"joinDate": {
-						"format": "date",
+						"format": "date-time",
 						"type": "string"
 					}
 				},
