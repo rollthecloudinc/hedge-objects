@@ -1,0 +1,18 @@
+{
+	"category": "Vehicle",
+	"datePosted": "2025-10-01",
+	"description": "Runs well, needs some body work. Great work truck.",
+	"id": "b19d331f-a0c0-11f0-9f33-6eecac0171db",
+	"isPromoted": false,
+	"location": "detroit",
+	"price": 2800,
+	"rating": 3.2,
+	"seller": {
+		"isVerified": false,
+		"joinDate": "2024-03-15"
+	},
+	"status": "active",
+	"title": "1998 Ford F-150 Pickup",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb",
+	"views": 1200
+}
