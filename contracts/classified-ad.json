@@ -23,10 +23,6 @@
 				"description": "Detailed description of the item.",
 				"type": "string"
 			},
-			"id": {
-				"description": "Unique identifier for the classified ad.",
-				"type": "string"
-			},
 			"isPromoted": {
 				"description": "Boolean flag indicating if the ad is promoted.",
 				"type": "boolean"
