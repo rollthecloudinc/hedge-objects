@@ -14,8 +14,27 @@
 				"description": "Primary category of the item (e.g., Cars, Furniture, Electronics).",
 				"type": "string"
 			},
+			"coordinates": {
+				"description": "Geospatial coordinates (latitude and longitude) for distance search.",
+				"properties": {
+					"lat": {
+						"description": "The latitude of the item's location.",
+						"type": "number"
+					},
+					"lon": {
+						"description": "The longitude of the item's location.",
+						"type": "number"
+					}
+				},
+				"required": [
+					"lat",
+					"lon"
+				],
+				"type": "object"
+			},
 			"datePosted": {
 				"description": "Date the ad was originally posted.",
+				"format": "date",
 				"type": "string"
 			},
 			"description": {
@@ -45,6 +64,7 @@
 						"type": "boolean"
 					},
 					"joinDate": {
+						"format": "date",
 						"type": "string"
 					}
 				},
