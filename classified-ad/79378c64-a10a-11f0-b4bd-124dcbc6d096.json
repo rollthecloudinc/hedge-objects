@@ -1,0 +1,36 @@
+{
+	"category": "Vehicle",
+	"coordinates": {
+		"lat": 42.3314,
+		"lon": -83.0458
+	},
+	"datePosted": "2024-09-01T10:00:00Z",
+	"description": "Excellent condition, always garaged. Must see!",
+	"id": "79378c64-a10a-11f0-b4bd-124dcbc6d096",
+	"isPromoted": true,
+	"location": "detroit",
+	"price": 35000,
+	"rating": 4.8,
+	"reviews": [
+		{
+			"feedback": "blah blah blah",
+			"reviewRating": 1
+		},
+		{
+			"feedback": "hello world",
+			"reviewRating": 3
+		},
+		{
+			"feedback": "ennie meenie miie moe",
+			"reviewRating": 2
+		}
+	],
+	"seller": {
+		"isVerified": true,
+		"joinDate": "2022-01-15T00:00:00Z"
+	},
+	"status": "active",
+	"title": "2020 Ford Mustang GT - Low Miles",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb",
+	"views": 1200
+}
