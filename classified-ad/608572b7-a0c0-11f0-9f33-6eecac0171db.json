@@ -1,0 +1,18 @@
+{
+	"category": "Vehicle",
+	"datePosted": "2025-09-20",
+	"description": "Like new, less than 5,000 miles. Fully loaded package.",
+	"id": "608572b7-a0c0-11f0-9f33-6eecac0171db",
+	"isPromoted": true,
+	"location": "detroit",
+	"price": 38500,
+	"rating": 4.8,
+	"seller": {
+		"isVerified": true,
+		"joinDate": "2022-11-01"
+	},
+	"status": "active",
+	"title": "2024 Ford Bronco Sport",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb",
+	"views": 4500
+}
