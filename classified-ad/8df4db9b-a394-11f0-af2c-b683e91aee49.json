@@ -1,0 +1,28 @@
+{
+	"category": "vehicle",
+	"coordinates": {
+		"lat": 37.774,
+		"lon": -122.419
+	},
+	"datePosted": "2024-09-01T10:00:00Z",
+	"description": "Excellent condition, always garaged. Must see!",
+	"id": "8df4db9b-a394-11f0-af2c-b683e91aee49",
+	"isPromoted": true,
+	"location": "detroit",
+	"price": 25000,
+	"rating": 4.8,
+	"reviews": [
+		{
+			"feedback": "blah blah blah",
+			"reviewRating": 7
+		}
+	],
+	"seller": {
+		"isVerified": true,
+		"joinDate": "2022-01-15T00:00:00Z"
+	},
+	"status": "active",
+	"title": "2022 Corvette Red - Low Miles",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb",
+	"views": 1200
+}
