@@ -1,0 +1,28 @@
+{
+	"category": "vehicle",
+	"coordinates": {
+		"lat": 42.365081,
+		"lon": -71.053884
+	},
+	"datePosted": "2024-09-01T10:00:00Z",
+	"description": "Excellent condition, always garaged. Must see!",
+	"id": "5cce5464-a391-11f0-9f5b-12541d90467d",
+	"isPromoted": true,
+	"location": "detroit",
+	"price": 15000,
+	"rating": 4.8,
+	"reviews": [
+		{
+			"feedback": "blah blah blah",
+			"reviewRating": 4
+		}
+	],
+	"seller": {
+		"isVerified": true,
+		"joinDate": "2022-01-15T00:00:00Z"
+	},
+	"status": "active",
+	"title": "2022 Ford Mustang GT - Low Miles",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb",
+	"views": 1200
+}
