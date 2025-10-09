@@ -1,0 +1,28 @@
+{
+	"category": "vehicle",
+	"coordinates": {
+		"lat": 37.774,
+		"lon": -122.419
+	},
+	"datePosted": "2024-09-01T10:00:00Z",
+	"description": "Excellent condition, always garaged. Must see!",
+	"id": "cc4c91e1-a4fe-11f0-ac9b-0a8624ee8973",
+	"isPromoted": true,
+	"location": "detroit",
+	"price": 50000,
+	"rating": 3,
+	"reviews": [
+		{
+			"feedback": "blah blah blah",
+			"reviewRating": 7
+		}
+	],
+	"seller": {
+		"isVerified": false,
+		"joinDate": "2022-01-15T00:00:00Z"
+	},
+	"status": "active",
+	"title": "2022 Corvette Blue - Low Miles",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb",
+	"views": 100
+}
