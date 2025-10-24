@@ -1,0 +1,88 @@
+{
+	"hooks": {
+		"AfterSave": [
+			{
+				"name": "arn:aws:lambda:us-east-1:032425924121:function:goclassifieds-splits-api-dev-EntityIndexHook",
+				"type": "lambda"
+			}
+		]
+	},
+	"id": "category-tree-structure",
+	"schema": {
+		"additionalProperties": false,
+		"definitions": {
+			"category": {
+				"additionalProperties": false,
+				"description": "Subcategory or category structure",
+				"properties": {
+					"items": {
+						"description": "Items nested within this subcategory.",
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					},
+					"name": {
+						"description": "The name of the subcategory.",
+						"type": "string"
+					},
+					"subcategories": {
+						"description": "The subcategories nested within this subcategory.",
+						"items": {
+							"$ref": "#/schema/definitions/category"
+						},
+						"type": "array"
+					}
+				},
+				"required": [
+					"name"
+				],
+				"type": "object"
+			}
+		},
+		"description": "Schema for hierarchical category tree structure",
+		"properties": {
+			"categories": {
+				"description": "The root categories of the tree structure.",
+				"items": {
+					"additionalProperties": false,
+					"properties": {
+						"items": {
+							"description": "Items within this category.",
+							"items": {
+								"type": "string"
+							},
+							"type": "array"
+						},
+						"name": {
+							"description": "The name of the category.",
+							"type": "string"
+						},
+						"subcategories": {
+							"description": "The subcategories within this category.",
+							"items": {
+								"$ref": "#/schema/definitions/category"
+							},
+							"type": "array"
+						}
+					},
+					"required": [
+						"name"
+					],
+					"type": "object"
+				},
+				"type": "array"
+			},
+			"entity": {
+				"description": "The entity type identifier for the schema.",
+				"type": "string"
+			}
+		},
+		"required": [
+			"entity",
+			"categories"
+		],
+		"type": "object"
+	},
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
