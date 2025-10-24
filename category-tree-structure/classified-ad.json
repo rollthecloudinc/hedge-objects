@@ -1,0 +1,322 @@
+{
+	"categories": [
+		{
+			"name": "Nature",
+			"subcategories": [
+				{
+					"name": "Animals",
+					"subcategories": [
+						{
+							"name": "Mammals",
+							"subcategories": [
+								{
+									"items": [
+										"Humans",
+										"Apes"
+									],
+									"name": "Primates"
+								},
+								{
+									"items": [
+										"Cats (e.g., domestic cats, lions)",
+										"Dogs (e.g., wolves, domestic dogs)"
+									],
+									"name": "Carnivores"
+								},
+								{
+									"items": [
+										"Elephants",
+										"Deer"
+									],
+									"name": "Herbivores"
+								}
+							]
+						},
+						{
+							"name": "Birds",
+							"subcategories": [
+								{
+									"items": [
+										"Eagles",
+										"Falcons"
+									],
+									"name": "Raptors"
+								},
+								{
+									"items": [
+										"Ducks",
+										"Swans"
+									],
+									"name": "Waterfowl"
+								}
+							]
+						},
+						{
+							"items": [
+								"Lizards",
+								"Snakes"
+							],
+							"name": "Reptiles"
+						}
+					]
+				},
+				{
+					"name": "Plants",
+					"subcategories": [
+						{
+							"name": "Trees",
+							"subcategories": [
+								{
+									"items": [
+										"Oaks",
+										"Maples"
+									],
+									"name": "Deciduous trees"
+								},
+								{
+									"items": [
+										"Pines",
+										"Cedars"
+									],
+									"name": "Coniferous trees"
+								}
+							]
+						},
+						{
+							"items": [
+								"Roses",
+								"Orchids"
+							],
+							"name": "Flowers"
+						},
+						{
+							"items": [
+								"Bamboo",
+								"Wheat"
+							],
+							"name": "Grasses"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Technology",
+			"subcategories": [
+				{
+					"name": "Hardware",
+					"subcategories": [
+						{
+							"items": [
+								"Desktop Computers",
+								"Laptops",
+								"Tablets"
+							],
+							"name": "Computing Devices"
+						},
+						{
+							"items": [
+								"Keyboards",
+								"Mice",
+								"Printers"
+							],
+							"name": "Peripherals"
+						}
+					]
+				},
+				{
+					"name": "Software",
+					"subcategories": [
+						{
+							"items": [
+								"Windows",
+								"macOS",
+								"Linux"
+							],
+							"name": "Operating Systems"
+						},
+						{
+							"name": "Applications",
+							"subcategories": [
+								{
+									"items": [
+										"Word processing",
+										"Spreadsheets"
+									],
+									"name": "Productivity Tools"
+								},
+								{
+									"items": [
+										"Photo-editing",
+										"Video-editing"
+									],
+									"name": "Creative Tools"
+								}
+							]
+						},
+						{
+							"items": [
+								"Python",
+								"JavaScript",
+								"Java"
+							],
+							"name": "Programming Languages"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Economics",
+			"subcategories": [
+				{
+					"name": "Industries",
+					"subcategories": [
+						{
+							"name": "Energy",
+							"subcategories": [
+								{
+									"items": [
+										"Solar",
+										"Wind"
+									],
+									"name": "Renewable Energy"
+								},
+								{
+									"items": [
+										"Oil",
+										"Natural Gas"
+									],
+									"name": "Fossil Fuels"
+								}
+							]
+						},
+						{
+							"name": "Healthcare",
+							"subcategories": [
+								{
+									"items": [],
+									"name": "Pharmaceuticals"
+								},
+								{
+									"items": [],
+									"name": "Medical Devices"
+								}
+							]
+						},
+						{
+							"name": "Technology",
+							"subcategories": [
+								{
+									"items": [],
+									"name": "IT Services"
+								},
+								{
+									"items": [],
+									"name": "Semiconductor Manufacturing"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Markets",
+					"subcategories": [
+						{
+							"items": [
+								"NYSE",
+								"NASDAQ"
+							],
+							"name": "Stock Market"
+						},
+						{
+							"items": [
+								"Gold",
+								"Oil"
+							],
+							"name": "Commodities"
+						},
+						{
+							"items": [
+								"Bitcoin",
+								"Ethereum"
+							],
+							"name": "Cryptocurrency"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Knowledge",
+			"subcategories": [
+				{
+					"name": "Sciences",
+					"subcategories": [
+						{
+							"items": [
+								"Mechanics",
+								"Quantum Physics"
+							],
+							"name": "Physics"
+						},
+						{
+							"items": [
+								"Human Anatomy",
+								"Ecology"
+							],
+							"name": "Biology"
+						},
+						{
+							"items": [
+								"Organic Chemistry",
+								"Inorganic Chemistry"
+							],
+							"name": "Chemistry"
+						}
+					]
+				},
+				{
+					"name": "Arts",
+					"subcategories": [
+						{
+							"items": [
+								"Painting",
+								"Sculpture"
+							],
+							"name": "Visual Arts"
+						},
+						{
+							"items": [
+								"Theater",
+								"Dance"
+							],
+							"name": "Performing Arts"
+						}
+					]
+				},
+				{
+					"name": "History",
+					"subcategories": [
+						{
+							"items": [
+								"Mesopotamia",
+								"Egypt"
+							],
+							"name": "Ancient History"
+						},
+						{
+							"items": [
+								"World Wars",
+								"Technological Revolution"
+							],
+							"name": "Modern History"
+						}
+					]
+				}
+			]
+		}
+	],
+	"entity": "classified-ad",
+	"id": "classified-ad"
+}
